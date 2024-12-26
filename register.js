@@ -32,5 +32,5 @@ form.onsubmit = async (e) => {
   }).catch((err) => console.log(err));
 
   localStorage.setItem("user_id", newUser._id);
-  window.location.href = "/todo.html";
+  window.location.href = "/login.html";
 };
